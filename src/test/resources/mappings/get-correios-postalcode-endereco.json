@@ -1,0 +1,62 @@
+{
+  "mappings": [
+    {
+        "request": {
+            "method": "GET",
+            "url": "/correios/123456000/endereco"
+        },
+        "response": {
+            "status": 200,
+            "headers": {
+              "Content-Type": "application/json"
+            },            
+            "jsonBody": 
+                {
+                    "cep": "123456000",
+                    "endereco": "Av Nove de Julho",
+                    "cidade": "São Paulo",
+                    "estado": "SP"
+                }
+        }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/correios/98765000/endereco"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody":
+        {
+          "cep": "98765000",
+          "endereco": "Av 23 de Maio",
+          "cidade": "São Paulo",
+          "estado": "SP"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/correios/11111000/endereco"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody":
+        {
+          "cep": "11111000",
+          "endereco": "Av Brasil",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ"
+        }
+      }
+    }
+
+  ]
+}

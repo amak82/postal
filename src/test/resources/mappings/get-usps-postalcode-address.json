@@ -1,0 +1,23 @@
+{
+  "mappings": [
+    {
+        "request": {
+            "method": "GET",
+            "url": "/usps/55555000/address"
+        },
+        "response": {
+            "status": 200,
+            "headers": {
+              "Content-Type": "application/json"
+            },            
+            "jsonBody": 
+                {
+                    "postalCode": "55555000",
+                    "address": "Ave 1st",
+                    "city": "New York",
+                    "state": "NY"
+                }
+        }
+    }
+]
+}
